@@ -1,0 +1,85 @@
+.container {
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  opacity: 0.9;
+}
+
+.column {
+  align-items: center;
+}
+/* .question-box {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+} */
+
+.input-field {
+  align-items: center;
+  border-radius: 100%;
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+}
+
+
+
+.firstsection {
+  justify-content: center;
+  position: relative;
+  display: flex;
+  align-items: center; /* Not necessary but will center the items */
+  flex-direction: row; /* Not necessary but tells that they should be in a row */
+  /* justify-content: flex-start; Will align items to left on larger screens */
+  flex-wrap: wrap; /* Will allow the flex inputs to wrap on smaller screens */
+}
+
+/* .question {
+  border-radius: 18px;
+  background: #600;
+  padding: 20px; 
+  width: 200px;
+  height: 15px;    
+} */
+
+
+
+.input-field {
+  border-radius: 18px;
+  padding: 20px; 
+  width: 200px;
+  height: 15px;
+  justify-content: center;
+  display: flex;
+  align-items: center;    
+}
+
+.button {
+  width: 100%;
+  padding: 8px 16px;
+  background-color: #575e99;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.button:hover {
+  background-color: #4d5492;
+}
+
+.p {
+  border-radius: 18px;
+  padding: 20px; 
+  width: 200px;
+  height: 15px;
+  justify-content: center;
+  display: flex;
+  align-items: center; 
+
+}
